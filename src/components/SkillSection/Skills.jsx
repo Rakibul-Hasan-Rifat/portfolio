@@ -21,7 +21,7 @@ const Skills = () => {
   }, []);
   return (
     <section id="skills" className="py-20 bg-[#252525] text-white rounded-xl">
-      <h1 className="text-6xl font-bold text-center mb-8">Tech Stack</h1>
+      <h1 className="text-5xl md:text-6xl font-bold text-center mb-8">Tech Stack</h1>
       <SkillSection title="Frontend" items={skills[0]?.frontend} />
       <SkillSection title="Backend" items={skills[1]?.backend} />
       <SkillSection title="Tools" items={skills[2]?.tools} />
