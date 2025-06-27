@@ -1,0 +1,96 @@
+{
+  "skills": [
+    {
+      "frontend": [
+        {
+          "name": "HTML",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        }
+      ]
+    },
+    {
+      "backend": [
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        }
+      ]
+    },
+    {
+      "tools": [
+        {
+          "name": "Git",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        },
+        {
+          "name": "GitHub",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        },
+        {
+          "name": "Visual Studio Code",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TinyJobs",
+      "description": "A job portal website where users can find and apply for jobs.",
+      "technologies": ["Node", "MongoDB", "Express", "React", "Tailwind CSS"],
+      "image": "https://i.ibb.co/xS70wwWw/assignment-12.png",
+      "clientCode": "https://github.com/Rakibul-Hasan-Rifat/tiny-jobs-client",
+      "serverCode": "https://github.com/Rakibul-Hasan-Rifat/tiny-jobs-server",
+      "liveLink": "https://tiny-job-be929.web.app/"
+    },
+    {
+      "name": "Wordify",
+      "description": "Food delivery website where users can order food online.",
+      "technologies": ["Node", "MongoDB", "Express", "React", "Tailwind CSS"],
+      "image": "https://i.ibb.co/RkJdK69s/assignment-11.png",
+      "clientCode": "https://github.com/Rakibul-Hasan-Rifat/wordify-client",
+      "serverCode": "https://github.com/Rakibul-Hasan-Rifat/wordify-server",
+      "liveLink": "https://wordify-client.web.app/"
+    },
+    {
+      "name": "Peddy",
+      "description": "A pet care website where users can find information about pet care services.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Tailwind CSS", "APIs"],
+      "image": "https://i.ibb.co/TDQKj3fw/assignment-6.png",
+      "clientCode": "https://github.com/Rakibul-Hasan-Rifat/peddy",
+      "liveLink": "https://peddy-fd9697.netlify.app/"
+    },
+    {
+      "name": "DonateBangladesh",
+      "description": "A donation platform where users can donate to various causes.",
+      "technologies": ["JavaScript", "Tailwind CSS", "HTML", "CSS"],
+      "image": "https://i.ibb.co/F4dKK5v4/assignment-5.png",
+      "clientCode": "https://github.com/Rakibul-Hasan-Rifat/donate-bangladesh",
+      "liveLink": "https://rakibul-hasan-rifat.github.io/donate-bangladesh/index.html"
+    }
+  ]
+}
