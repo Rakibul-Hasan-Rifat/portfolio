@@ -17,9 +17,12 @@ const Projects = () => {
       }
     };
     fetchData();
-  }, [])
+  }, []);
   return (
-    <section id="projects" className="mt-28 w-full mx-auto px-4 py-12 bg-[#333]">
+    <section
+      id="projects"
+      className="mt-28 w-full mx-auto px-4 py-12 bg-[#333] rounded-xl"
+    >
       <h2 className="text-4xl font-bold text-center text-white mb-12">
         My Projects
       </h2>
@@ -30,11 +33,13 @@ const Projects = () => {
             key={index}
             className="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2"
           >
-            <img
-              src={project.image}
-              alt={project.name}
-              className="w-full h-64 object-cover"
-            />
+            <div className="p-4">
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-64 object-cover rounded-lg mb-4 shadow-lg"
+              />
+            </div>
 
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">
@@ -89,6 +94,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;

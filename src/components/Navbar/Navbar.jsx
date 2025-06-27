@@ -94,7 +94,7 @@ const Navbar = () => {
       </ul>
       <div style={{ display: "flex", gap: "1rem" }}>
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Rakibul-Hasan-Rifat"
           target="_blank"
           rel="noopener noreferrer"
           style={buttonStyle}
